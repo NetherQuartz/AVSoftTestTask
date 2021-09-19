@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "avsofttesttask"
+version = "0.1.0"
+description = "Test task for AVSoft"
+authors = ["Vladimir Lar’kin <vladimir@larkin.one>"]
+
+[tool.poetry.dependencies]
+python = ">3.8<3.9"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+numpy = "^1.21.2"
+pandas = "^1.3.2"
+catboost = "^0.26.1"
+scikit-learn = "^0.24.2"
+jupyterlab = "^3.1.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
